@@ -38,3 +38,4 @@ Alteração no branch main
 =======
 Alteração no branch conflito-branch
 >>>>>>> conflito-branch
+Linha nova para revisão de código
