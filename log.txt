@@ -33,4 +33,8 @@ git push origin nova-feature
 echo "git push origin nova-feature" >> log.txt
 
 
+<<<<<<< HEAD
 Alteração no branch main
+=======
+Alteração no branch conflito-branch
+>>>>>>> conflito-branch
