@@ -31,5 +31,26 @@ echo "git add log.txt" >> log.txt
 echo "git commit -m 'Atualizando log.txt no branch nova-feature'" >> log.txt
 git push origin nova-feature  
 echo "git push origin nova-feature" >> log.txt
+2.1
+git checkout main  
+git pull origin main  
+2.2
+git checkout -b conflito-branch  
+echo "Alteração no branch conflito-branch" >> log.txt  
+git add log.txt  
+git commit -m "Mudança no log.txt em conflito-branch"  
+git checkout main  
+echo "Alteração no branch main" >> log.txt  
+git add log.txt  
+git commit -m "Mudança no log.txt na main"  
+git merge conflito-branch  
+git add log.txt  
+git commit -m "Resolvendo conflito no log.txt"  
+2.3
+git checkout -b revisao-codigo  
+echo "Linha nova para revisão de código" >> log.txt  
+git add log.txt  
+git commit -m "Adicionando linha para revisão de código"  
+git push origin revisao-codigo  
 
 
