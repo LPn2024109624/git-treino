@@ -33,3 +33,4 @@ git push origin nova-feature
 echo "git push origin nova-feature" >> log.txt
 
 
+Alteração no branch conflito-branch
