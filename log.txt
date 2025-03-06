@@ -1,2 +1,35 @@
+1.1
+git config --global user.name LPn2024109624
+git config --global user.email 2024109624@uac.pt
+mkdir git-treino  
+cd git-treino  
+git init
+touch log.txt  
+echo "Comandos usados:" >> log.txt
+echo "git config --global user.name 'Seu Nome'" >> log.txt
+echo "git config --global user.email 'seuemail@example.com'" >> log.txt
+echo "git init" >> log.txt
 
-git clone https://github.com/seu-usuario/git-treino.git
+1.2
+git clone https://github.com/seu-usuario/git-treino.git  
+cd git-treino 
+echo "git clone https://github.com/seu-usuario/git-treino.git" >> log.txt
+git add log.txt  
+git commit -m "Adicionando log.txt"  
+echo "git add log.txt" >> log.txt
+echo "git commit -m 'Adicionando log.txt'" >> log.txt
+1.3
+git push origin main  
+echo "git push origin main" >> log.txt
+1.4
+git checkout -b nova-feature  
+echo "git checkout -b nova-feature" >> log.txt
+echo "Criando um novo branch chamado nova-feature" >> log.txt  
+git add log.txt  
+git commit -m "Atualizando log.txt no branch nova-feature"  
+echo "git add log.txt" >> log.txt
+echo "git commit -m 'Atualizando log.txt no branch nova-feature'" >> log.txt
+git push origin nova-feature  
+echo "git push origin nova-feature" >> log.txt
+
+
